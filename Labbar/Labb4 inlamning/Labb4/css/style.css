@@ -1,0 +1,99 @@
+/* CSS for styling the header */
+#header0 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 2%;
+    text-align: center;
+
+    
+}
+
+
+#header h1 {
+    text-align: center;
+    display: inline-block; /* Display the title inline */
+    color: white;
+   
+}
+.vertical-line {
+    border-left: 3px solid rgb(83, 83, 83); /* Adjust thickness and color as needed */
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    bottom: 20%;
+    transform: translateX(-50%);
+}
+
+
+.menu {
+    position: absolute;
+    color: white;
+    z-index: 999; /* Ensure menu is above SVG elements */
+
+    top: calc(100px); /* 100px for h1 height, 20px extra space */
+    margin-top: 4%;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 20px;
+    border-radius: 15px;
+}
+.menu2 {
+    position: absolute;
+    color: white;
+    z-index: 999; /* Ensure menu is above SVG elements */
+
+    top: calc(100px); /* 100px for h1 height, 20px extra space */
+    margin-top: 4%;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #ffffff;
+}
+
+
+*/
+/* Adjust padding for SVG containers to accommodate header */
+.svg-container1,
+.svg-container2 {
+    margin: 10px; /* Adjust top padding to account for header height */
+}
+.selected {
+    stroke: orange; /* Change the stroke color of selected nodes and links */
+    stroke-width: 3; /* Increase the stroke width of selected nodes and links */
+}
+.info-box {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 10px;
+    border: 1px solid #000;
+    width: 400px; /* Add specific width */
+    height: auto; /* Adjust height as needed */
+    overflow: auto; /* Add overflow property to handle long text */
+    color: white; /* Set text color to white */
+    font-weight: bold;
+}
+
+#info-box1 {
+    top: 20px;
+    left: 20px;
+}
+
+#info-box2 {
+    top: 20px;
+    right: 20px;
+}
+
+
+
+
+
+
